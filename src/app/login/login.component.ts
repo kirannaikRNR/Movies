@@ -11,6 +11,7 @@ import { Login } from '../model/login.model';
 export class LoginComponent implements OnInit {
 
   login: Login;
+  loading : true;
 
   constructor() {
     this.login = new Login();

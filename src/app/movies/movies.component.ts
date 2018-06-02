@@ -19,6 +19,8 @@ export class PageState {
 export class MoviesComponent implements OnInit {
 
   movies: Movie[];
+  p: number = 1;
+  
 
   constructor(
     private commonService : CommonService
