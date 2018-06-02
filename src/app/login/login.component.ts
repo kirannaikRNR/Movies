@@ -27,8 +27,8 @@ export class LoginComponent implements OnInit {
       var currentUser = JSON.parse(localStorage.getItem('currentUser'));
 
 
-      this.router= Router;
-      this.router.navigate('');
+      // this.router= Router;
+      // this.router.navigate('');
   }
 
 
